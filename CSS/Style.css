@@ -6,7 +6,7 @@
 }
 .hero{
 	height: 100vh;
-	width: 100%;
+	width: 150%;
 	background-image: url(../img/background.jpg);
 	background-size: cover;
 	background-position: center;
@@ -105,7 +105,7 @@ h4{
 }
 
 .about{
-	width: 100%;
+	width: 150%;
 	padding: 100px 0px;
 	background-color: #191919;
 }
@@ -162,7 +162,7 @@ button:hover{
 
 .service{
 	background: #101010;
-	width: 100%;
+	width: 150%;
 	padding: 100px 0px;
 }
 .title h2{
@@ -224,7 +224,7 @@ h5{
 	cursor: pointer;
 }
 .contact-me{
-	width: 100%;
+	width: 150%;
 	height: 290px;
 	background: #191919;
 	display: flex;
@@ -255,7 +255,7 @@ h5{
 }
 footer{
 	position: relative;
-	width: 100%;
+	width: 150%;
 	height: 400px;
 	background: #101010;
 	display: flex;
@@ -302,3 +302,46 @@ footer p:nth-child(2){
 	bottom: 35px;
 	font-size: 14px; 
 }
+
+
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+    .about img {
+	  width: 0px;
+	}
+
+}
+    
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) { 
+      
+    .about img {
+      width: 1024px;
+    }
+      
+  }
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 1441px) {
+      
+    .global-page-container {
+      width: 1440px;
+    }
+            
+  }
+
