@@ -307,7 +307,7 @@ footer p:nth-child(2){
 
 
 
-@media only screen and (min-width: 500px) and (max-width: 900px) {
+@media only screen and (min-width: 500px) and (max-width: 500px) {
     .about img {
 	  width: 0px;
 	}
