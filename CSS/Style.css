@@ -317,7 +317,7 @@ footer p:nth-child(2){
 
 
 
-@media screen and ( min-width: 500px) and (max-width: 1700px) {
+@media screen and ( min-width: 500px) and (max-width: 1250px) {
 
 	.hero img{
 		width: 150%;
