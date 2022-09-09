@@ -273,7 +273,7 @@ footer{
 	justify-content: center;
 }
 footer p:nth-child(1){
-	font-size: 30px;
+	font-size: 15px;
 	color: white;
 	margin-bottom: 20px;
 	font-weight: bold;
@@ -308,8 +308,9 @@ footer p:nth-child(2){
 .end{
 	position: absolute;
 	color:#f9004d;
-	bottom: 35px;
+	bottom: -9px;
 	font-size: 14px; 
+	margin-left: -98px;
 }
 
 
